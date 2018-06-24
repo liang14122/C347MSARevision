@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">C347MSARevision</string>
+    <string name="c347_msa_revision">C347 MSA Revision</string>
+    <string name="scroll_view">Scroll View</string>
+    <string name="one">One</string>
+    <string name="two">Two</string>
+    <string name="selected_text">Selected Text</string>
+    <string name="load_from_drawable">Load from @drawable</string>
+    <string name="load_from_url">Load from URL</string>
+    <string name="todo">TODO</string>
+    <string name="intent_to_same_activity_n_with_different_request_code">Intent to same Activity   with different request code</string>
+    <string name="request_code_1">Request Code 1</string>
+    <string name="request_code_2">Request Code 2</string>
+    <string name="return_code_b">Return code B</string>
+    <string name="return_code_a">Return code A</string>
+    <string name="send_email_with_implicit_intent">Send Email with Implicit Intent</string>
+    <string name="send_email">Send Email</string>
+    <string name="pass_serializable_object_to_another_activity">Pass Serializable Object to Another Activity</string>
+    <string name="inent">Inent</string>
+    <string name="start_internet">Start Internet</string>
+    <string name="create_database">Create DataBase</string>
+    <string name="get_all_records">Get All Records</string>
+    <string name="add_new_record">Add new record</string>
+    <string name="update_record">Update Record</string>
+    <string name="delete_record">Delete Record</string>
+    <string name="get_record_by_star">Get Record By Star</string>
+    <string name="send_instant_alarm">Send instant Alarm</string>
+    <string name="instant_and_delayed_alarm">Instant and delayed Alarm</string>
+    <string name="send_delayed_alarm">Send Delayed Alarm</string>
+    <string name="normal_notification">Normal Notification</string>
+    <string name="big_text_notification">Big Text Notification</string>
+    <string name="scheduled_notification">Scheduled Notification</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_fragment">First Fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="using_contentprovider_retrieve_sms">Using ContentProvider Retrieve SMS</string>
+    <string name="retrieve_sms">Retrieve SMS</string>
+    <string name="retrieve_all_sms">Retrieve All SMS</string>
+    <string name="retrieve_sms_with_filter">Retrieve SMS with Filter</string>
+</resources>

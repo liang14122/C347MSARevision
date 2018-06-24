@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a16004118.c347msarevision">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.ScrollViewActivity" />
+        <activity android:name=".Activity.RadioGroupActivity" />
+        <activity android:name=".Activity.ImageViewActivity" />
+        <activity android:name=".Activity.CustomListViewActivity" />
+        <activity android:name=".Activity.ExplicitIntentActivity" />
+        <activity android:name=".Activity.ExplicitIntentActivity2" />
+        <activity android:name=".Activity.ImplicitIntentActivity" />
+        <activity android:name=".Activity.SerializableActivity" />
+        <activity android:name=".Activity.SerializableActivity2" />
+        <activity android:name=".Activity.DatabaseActivity" />
+        <activity android:name=".Activity.AlarmManagerActivity" />
+        <activity android:name=".Activity.AlarmReceiverActivity" />
+        <activity android:name=".Activity.NotificationActivity" />
+
+        <receiver
+            android:name=".Helper.ScheduledNotificationReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Activity.FragmentActivity" />
+        <activity android:name=".Activity.ContentProviderActivity"></activity>
+    </application>
+
+</manifest>
