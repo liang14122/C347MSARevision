@@ -3,7 +3,11 @@
     package="com.example.a16004118.c347msarevision">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -12,6 +16,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <meta-data
+            android:value="AIzaSyC3SrHyBhswPnp0yKX18FN_2N8IGZxOVnI"
+            android:name="com.google.android.geo.API_KEY"/>
+
         <activity android:name=".Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,7 +48,8 @@
             android:exported="true" />
 
         <activity android:name=".Activity.FragmentActivity" />
-        <activity android:name=".Activity.ContentProviderActivity"></activity>
+        <activity android:name=".Activity.ContentProviderActivity" />
+        <activity android:name=".Activity.GoogleMapActivity"></activity>
     </application>
 
 </manifest>

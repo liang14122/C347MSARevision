@@ -85,8 +85,15 @@ public class MainActivity extends AppCompatActivity {
         listHeader = new ArrayList<>();
         listDetail = new HashMap<>();
 
-        for (int i = 1; i < 8; i ++){
-            listHeader.add("P0" + i);
+        for (int i = 1; i < 14; i ++){
+
+            if (i < 10){
+                listHeader.add("P0" + i);
+            }else {
+                listHeader.add("P" + i);
+            }
+
+
         }
 
         List<String> p01 = new ArrayList<>();
@@ -120,13 +127,43 @@ public class MainActivity extends AppCompatActivity {
         p07.add("Fragment");
         p07.add("ContentProvider");
 
+        List<String> p08 = new ArrayList<>();
+        p08.add("GoogleMap");
+        p08.add("ContentProvider");
+
+        List<String> p09 = new ArrayList<>();
+        p09.add("Fragment");
+        p09.add("ContentProvider");
+
+        List<String> p10 = new ArrayList<>();
+        p10.add("Fragment");
+        p10.add("ContentProvider");
+
+        List<String> p11 = new ArrayList<>();
+        p11.add("Fragment");
+        p11.add("ContentProvider");
+
+        List<String> p12 = new ArrayList<>();
+        p12.add("Fragment");
+        p12.add("ContentProvider");
+
+        List<String> p13 = new ArrayList<>();
+        p13.add("Fragment");
+        p13.add("ContentProvider");
+
         listDetail.put(listHeader.get(0), p01);
         listDetail.put(listHeader.get(1), p02);
         listDetail.put(listHeader.get(2), p03);
         listDetail.put(listHeader.get(3), p04);
         listDetail.put(listHeader.get(4), p05);
         listDetail.put(listHeader.get(5), p06);
-        listDetail.put(listHeader.get(6), p07);// Header, Child data
+        listDetail.put(listHeader.get(6), p07);
+        listDetail.put(listHeader.get(7), p08);
+        listDetail.put(listHeader.get(8), p09);
+        listDetail.put(listHeader.get(9), p10);
+        listDetail.put(listHeader.get(10), p11);
+        listDetail.put(listHeader.get(11), p12);
+        listDetail.put(listHeader.get(12), p13);// Header, Child data
 
     }
 }

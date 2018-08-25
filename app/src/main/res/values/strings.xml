@@ -39,4 +39,11 @@
     <string name="retrieve_sms">Retrieve SMS</string>
     <string name="retrieve_all_sms">Retrieve All SMS</string>
     <string name="retrieve_sms_with_filter">Retrieve SMS with Filter</string>
+    <string name="normal">Normal</string>
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="north">North</string>
+    <string name="central">Central</string>
+    <string name="east">East</string>
 </resources>
