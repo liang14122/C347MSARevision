@@ -129,15 +129,16 @@ public class MainActivity extends AppCompatActivity {
 
         List<String> p08 = new ArrayList<>();
         p08.add("GoogleMap");
-        p08.add("ContentProvider");
 
         List<String> p09 = new ArrayList<>();
-        p09.add("Fragment");
-        p09.add("ContentProvider");
+        p09.add("LocationUpdating");
+        p09.add("FileReadWriting");
+        p09.add("Service");
 
         List<String> p10 = new ArrayList<>();
-        p10.add("Fragment");
-        p10.add("ContentProvider");
+        p10.add("ActionBar");
+        p10.add("ViewPager");
+        p10.add("AddOnPicasso");
 
         List<String> p11 = new ArrayList<>();
         p11.add("Fragment");

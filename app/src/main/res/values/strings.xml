@@ -46,4 +46,20 @@
     <string name="north">North</string>
     <string name="central">Central</string>
     <string name="east">East</string>
+    <string name="get_last_location">Get Last Location</string>
+    <string name="get_location_update">Get Location Update</string>
+    <string name="remove_location_update">Remove Location Update</string>
+    <string name="write_to_internal">Write to Internal</string>
+    <string name="read_from_internal">Read From Internal</string>
+    <string name="write_to_external">Write To External</string>
+    <string name="read_from_external">Read From External</string>
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="delete">Delete</string>
+    <string name="search">Search</string>
+    <string name="edit">Edit</string>
+    <string name="call">Call</string>
+    <string name="previous">Previous</string>
+    <string name="random">Random</string>
+    <string name="next">Next</string>
 </resources>

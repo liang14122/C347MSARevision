@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/search"
+        app:showAsAction="withText|always" />
+    <item android:id="@+id/action_compose"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/edit"
+        app:showAsAction="withText|always" />
+    <item android:id="@+id/action_call"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="@string/call"
+        app:showAsAction="withText|always" />
+    <item android:id="@+id/action_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/delete"
+        app:showAsAction="withText|always" />
+</menu>
