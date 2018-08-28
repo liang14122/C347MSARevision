@@ -141,8 +141,8 @@ public class MainActivity extends AppCompatActivity {
         p10.add("AddOnPicasso");
 
         List<String> p11 = new ArrayList<>();
-        p11.add("Fragment");
-        p11.add("ContentProvider");
+        p11.add("SnackBar");
+        p11.add("AlertDialog");
 
         List<String> p12 = new ArrayList<>();
         p12.add("Fragment");

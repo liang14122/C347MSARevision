@@ -62,4 +62,12 @@
     <string name="previous">Previous</string>
     <string name="random">Random</string>
     <string name="next">Next</string>
+    <string name="click_to_show_snackbar">Click to Show SnackBar</string>
+    <string name="normal_confirmation">Normal Confirmation</string>
+    <string name="simple_list">Simple List</string>
+    <string name="pass_phrase">Pass Phrase</string>
+    <string name="customise_list">Customise List</string>
+    <string name="question">Question</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 </resources>

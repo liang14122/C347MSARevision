@@ -30,9 +30,8 @@ import javax.xml.parsers.DocumentBuilderFactory;
 @SuppressLint("ValidFragment")
 public class ViewPagerFragment extends Fragment {
 
-    private int currentPosition;
+    int currentPosition;
 
-    @SuppressLint("ValidFragment")
     public ViewPagerFragment(int position) {
         // Required empty public constructor
         currentPosition = position;
