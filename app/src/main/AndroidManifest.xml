@@ -63,7 +63,8 @@
         <activity android:name=".Activity.ViewPagerActivity" />
         <activity android:name=".Activity.AddOnPicassoActivity" />
         <activity android:name=".Activity.SnackBarActivity" />
-        <activity android:name=".Activity.AlertDialogActivity"></activity>
+        <activity android:name=".Activity.AlertDialogActivity" />
+        <activity android:name=".Activity.NavigationDrawerActivity"></activity>
     </application>
 
 </manifest>

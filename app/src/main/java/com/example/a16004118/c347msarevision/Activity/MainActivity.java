@@ -145,8 +145,7 @@ public class MainActivity extends AppCompatActivity {
         p11.add("AlertDialog");
 
         List<String> p12 = new ArrayList<>();
-        p12.add("Fragment");
-        p12.add("ContentProvider");
+        p12.add("NavigationDrawer");
 
         List<String> p13 = new ArrayList<>();
         p13.add("Fragment");
